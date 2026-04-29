@@ -250,7 +250,7 @@ section.alt-bg { background-color: var(--bg-secondary); }
 
 /* --- HERO --- */
 .hero {
-  padding-top: calc(var(--space-3xl) + 100px);
+  padding-top: var(--space-3xl);
   padding-bottom: var(--space-2xl);
   background:
     radial-gradient(ellipse 80% 50% at 50% -10%, rgba(252, 223, 1, 0.08) 0%, transparent 70%),
