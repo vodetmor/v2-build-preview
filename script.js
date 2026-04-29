@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
   counters.forEach(counter => counterObserver.observe(counter));
 
   // 4. Parallax Effect on Mockups
-  const mockups = document.querySelectorAll('.hero-img, .bonus-img');
+  const mockups = document.querySelectorAll('.hero-img');
   window.addEventListener('scroll', () => {
     const scrollY = window.scrollY;
     mockups.forEach(mockup => {
